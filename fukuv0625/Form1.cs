@@ -21,5 +21,16 @@ namespace fukuv0625
         {
             MessageBox.Show("こんにちは");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left += 10;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Left += 100;
+            button3.Text = "残念外れだよ";
+        }
     }
 }
